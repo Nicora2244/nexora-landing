@@ -18,7 +18,7 @@ export default function Contact() {
               Escríbeme un correo
             </a>
             <a
-              href="https://wa.me/573000000000"
+              href="https://wa.me/573023205852"
               target="_blank"
               rel="noreferrer"
               className="btn-ghost"

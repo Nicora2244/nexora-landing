@@ -4,7 +4,7 @@ const links = [
   { href: '#servicios', label: 'Servicios' },
   { href: '#proyectos', label: 'Proyectos' },
   { href: '#proceso', label: 'Proceso' },
-  { href: '#precios', label: 'Precios' },
+  { href: '#explora', label: 'Qué incluye' },
 ]
 
 export default function Header() {

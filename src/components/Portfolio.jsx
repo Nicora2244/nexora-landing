@@ -3,14 +3,14 @@ const projects = [
     name: 'Athletain',
     tag: 'Sitio deportivo',
     text: 'Plataforma para un club/academia de alto rendimiento, con identidad visual propia y secciones para planes, equipo y contacto.',
-    url: 'https://github.com/Nicora2244/athletain_landing_page',
+    url: 'https://athletain.com/',
     gradient: 'from-violet-500/50 to-violet-900/40',
   },
   {
     name: 'Academia Internacional FC',
     tag: 'Campamentos de fútbol',
     text: 'Landing page internacional para una academia de fútbol en Colombia: narrativa visual fuerte, pilares del programa y planes de precio.',
-    url: 'https://nicora2244.github.io/academia-internacional-fc-landing/',
+    url: 'https://nicora2244.github.io/academia-internacional-fc-landing/#camp',
     gradient: 'from-amber/60 to-violet-700/40',
   },
 ]
