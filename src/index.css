@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink font-sans text-ink antialiased;
+}
+
+@layer components {
+  .blob {
+    @apply pointer-events-none absolute rounded-full blur-3xl;
+    background: radial-gradient(circle, var(--blob-color) 0%, transparent 70%);
+  }
+  .blob-violet {
+    --blob-color: rgba(108, 76, 247, 0.55);
+  }
+  .blob-amber {
+    --blob-color: rgba(255, 176, 32, 0.4);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-amber px-6 py-3 font-sans text-sm font-bold uppercase tracking-wide text-ink transition-transform hover:-translate-y-0.5 hover:bg-amber-400;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/20 px-6 py-3 font-sans text-sm font-bold uppercase tracking-wide text-white transition-colors hover:border-white/50;
+  }
+
+  .eyebrow {
+    @apply font-sans text-xs font-bold uppercase tracking-[0.25em] text-violet-300;
+  }
+
+  .card {
+    @apply rounded-2xl border border-white/10 bg-surface p-7 transition-colors hover:border-violet-400/40;
+  }
+}
